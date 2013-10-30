@@ -9,4 +9,4 @@ Miscellaneous breakout boards
 
 SOT23/SOT223/SC70 | 
 [Order](http://oshpark.com/shared_projects/5Zmb9JxP) - 
-[Gerbers](https://github.com/AerodyneLabs/BreakoutBoards/raw/master/8p-BoB/SOT-BoB-Gerber.zip)
+[Gerbers](https://github.com/AerodyneLabs/BreakoutBoards/raw/master/SOT-BoB/SOT-BoB-Gerber.zip)

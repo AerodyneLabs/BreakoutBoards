@@ -1,0 +1,118 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Aerodyne_v2
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 oct 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN-4 J1
+U 1 1 52708B71
+P 4200 3050
+F 0 "J1" H 4200 3300 60  0000 C CNN
+F 1 "CONN-4" H 4200 2800 60  0000 C CNN
+F 2 "" H 4200 3050 60  0000 C CNN
+F 3 "" H 4200 3050 60  0000 C CNN
+	1    4200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-4 J2
+U 1 1 52708B80
+P 4200 4550
+F 0 "J2" H 4200 4800 60  0000 C CNN
+F 1 "CONN-4" H 4200 4300 60  0000 C CNN
+F 2 "" H 4200 4550 60  0000 C CNN
+F 3 "" H 4200 4550 60  0000 C CNN
+	1    4200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-8 U1
+U 1 1 52708B8F
+P 5800 3250
+F 0 "U1" H 5800 3700 60  0000 C CNN
+F 1 "SOIC" H 5800 2800 60  0000 C CNN
+F 2 "~" H 5800 3250 60  0000 C CNN
+F 3 "~" H 5800 3250 60  0000 C CNN
+	1    5800 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN-8 U2
+U 1 1 52708BB2
+P 5800 4350
+F 0 "U2" H 5800 4800 60  0000 C CNN
+F 1 "SSOP" H 5800 3900 60  0000 C CNN
+F 2 "~" H 5800 4350 60  0000 C CNN
+F 3 "~" H 5800 4350 60  0000 C CNN
+	1    5800 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3600 5300 3600
+Wire Wire Line
+	5300 3600 5300 4700
+Wire Wire Line
+	4500 4700 5400 4700
+Wire Wire Line
+	4500 4600 5400 4600
+Wire Wire Line
+	5200 4600 5200 3500
+Wire Wire Line
+	5200 3500 5400 3500
+Wire Wire Line
+	5400 3400 5100 3400
+Wire Wire Line
+	5100 3400 5100 4500
+Wire Wire Line
+	4500 4500 5400 4500
+Wire Wire Line
+	4500 4400 5400 4400
+Wire Wire Line
+	5000 4400 5000 3300
+Wire Wire Line
+	5000 3300 5400 3300
+Wire Wire Line
+	4500 3200 5400 3200
+Wire Wire Line
+	4900 3200 4900 4300
+Wire Wire Line
+	4900 4300 5400 4300
+Wire Wire Line
+	5400 4200 4800 4200
+Wire Wire Line
+	4800 4200 4800 3100
+Wire Wire Line
+	4500 3100 5400 3100
+Wire Wire Line
+	4500 3000 5400 3000
+Wire Wire Line
+	4700 3000 4700 4100
+Wire Wire Line
+	4700 4100 5400 4100
+Wire Wire Line
+	5400 4000 4600 4000
+Wire Wire Line
+	4600 4000 4600 2900
+Wire Wire Line
+	4500 2900 5400 2900
+Connection ~ 4600 2900
+Connection ~ 4700 3000
+Connection ~ 4800 3100
+Connection ~ 4900 3200
+Connection ~ 5300 4700
+Connection ~ 5200 4600
+Connection ~ 5100 4500
+Connection ~ 5000 4400
+$EndSCHEMATC

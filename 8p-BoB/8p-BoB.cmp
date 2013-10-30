@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/29/2013 11:37:10 PM
+
+BeginCmp
+TimeStamp = /52708B71;
+Reference = J1;
+ValeurCmp = CONN-4;
+IdModule  = HDRV4W38P254_4X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52708B80;
+Reference = J2;
+ValeurCmp = CONN-4;
+IdModule  = HDRV4W38P254_4X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52708B8F;
+Reference = U1;
+ValeurCmp = SOIC;
+IdModule  = SOIC127P600-8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /52708BB2;
+Reference = U2;
+ValeurCmp = SSOP;
+IdModule  = SOP65P490-8N;
+EndCmp
+
+EndListe

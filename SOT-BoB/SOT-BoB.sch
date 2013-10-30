@@ -1,0 +1,152 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Aerodyne_v2
+LIBS:SOT-BoB-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 oct 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN-6 U1
+U 1 1 5270A5F7
+P 6100 2450
+F 0 "U1" H 6100 2800 60  0000 C CNN
+F 1 "SOT23" H 6100 2100 60  0000 C CNN
+F 2 "~" H 6100 2450 60  0000 C CNN
+F 3 "~" H 6100 2450 60  0000 C CNN
+	1    6100 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN-4 U2
+U 1 1 5270A615
+P 6100 3250
+F 0 "U2" H 6100 3500 60  0000 C CNN
+F 1 "SOT223" H 6100 3000 60  0000 C CNN
+F 2 "~" H 6100 3250 60  0000 C CNN
+F 3 "~" H 6100 3250 60  0000 C CNN
+	1    6100 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3300 5700 3300
+Wire Wire Line
+	5300 1500 5300 3300
+Wire Wire Line
+	4700 2400 5700 2400
+Wire Wire Line
+	5200 3200 5700 3200
+Wire Wire Line
+	5200 1400 5200 3200
+Wire Wire Line
+	4700 2300 5700 2300
+Wire Wire Line
+	4700 2200 5700 2200
+Wire Wire Line
+	5100 1300 5100 3100
+Wire Wire Line
+	5100 3100 5700 3100
+$Comp
+L CONN-4 J1
+U 1 1 5270A792
+P 4300 2350
+F 0 "J1" H 4300 2600 60  0000 C CNN
+F 1 "CONN-4" H 4300 2100 60  0000 C CNN
+F 2 "~" H 4300 2350 60  0000 C CNN
+F 3 "~" H 4300 2350 60  0000 C CNN
+	1    4300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-4 J2
+U 1 1 5270A7A1
+P 4300 3850
+F 0 "J2" H 4300 4100 60  0000 C CNN
+F 1 "CONN-4" H 4300 3600 60  0000 C CNN
+F 2 "~" H 4300 3850 60  0000 C CNN
+F 3 "~" H 4300 3850 60  0000 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2200
+Connection ~ 5200 2300
+Connection ~ 5300 2400
+Wire Wire Line
+	5700 2500 5400 2500
+Wire Wire Line
+	5400 1600 5400 3800
+Wire Wire Line
+	5400 3800 4700 3800
+Wire Wire Line
+	5700 2600 5500 2600
+Wire Wire Line
+	5500 1700 5500 3900
+Wire Wire Line
+	5500 3900 4700 3900
+Wire Wire Line
+	5700 2700 5600 2700
+Wire Wire Line
+	5600 1800 5600 4000
+Wire Wire Line
+	5600 4000 4700 4000
+Wire Wire Line
+	5700 3400 5500 3400
+Connection ~ 5500 3400
+$Comp
+L C C1
+U 1 1 5270A89E
+P 4800 3100
+F 0 "C1" H 4850 3250 60  0000 L CNN
+F 1 "C" H 4850 2950 60  0000 L CNN
+F 2 "~" H 4800 3100 60  0000 C CNN
+F 3 "~" H 4800 3100 60  0000 C CNN
+F 4 "V" H 4750 2950 60  0001 R CNN "Voltage"
+F 5 "D" H 4750 3250 60  0001 R CNN "Dielectric"
+	1    4800 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2500 4800 2500
+Wire Wire Line
+	4800 2500 4800 2850
+Wire Wire Line
+	4700 3700 4800 3700
+Wire Wire Line
+	4800 3700 4800 3350
+$Comp
+L CONN-6 U3
+U 1 1 5270B3D6
+P 6100 1550
+F 0 "U3" H 6100 1900 60  0000 C CNN
+F 1 "SC70" H 6100 1200 60  0000 C CNN
+F 2 "~" H 6100 1550 60  0000 C CNN
+F 3 "~" H 6100 1550 60  0000 C CNN
+	1    6100 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1800 5600 1800
+Connection ~ 5600 2700
+Wire Wire Line
+	5700 1700 5500 1700
+Connection ~ 5500 2600
+Wire Wire Line
+	5700 1600 5400 1600
+Connection ~ 5400 2500
+Wire Wire Line
+	5700 1500 5300 1500
+Wire Wire Line
+	5700 1400 5200 1400
+Wire Wire Line
+	5700 1300 5100 1300
+$EndSCHEMATC
